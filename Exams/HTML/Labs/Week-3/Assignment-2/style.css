@@ -1,0 +1,84 @@
+body {background-color:lightyellow}
+
+h1 {text-align: center; background-color: sandybrown; 
+   color:tomato; font-family: Algerian;
+   font-weight: 10; font-style: bold; 
+   font-size: xx-large; word-spacing: 0.01em}
+
+h2 {text-align: center; background-color: tomato; 
+   color:lavender; font-family: Algerian;
+   font-weight: 10; font-style: bold; 
+   font-size: x-large; word-spacing: 0.01em}
+
+.Description1 {text-align:center;font-size:16px;
+            background-color: mistyrose; color:darkblue;
+            font-family: Verdana;font-style:bold}
+
+.Description2 {text-align:center;font-size:18px;
+            background-color: red; color:yellow;
+            font-family: Cambria;font-style:bold}
+
+.Description3 {text-align:center;font-size:18px;
+            background-color: aliceblue; color:mediumpurple;
+            font-family: Cambria;font-style:bold}
+
+.Description4 {text-align:center;font-size:18px;
+            background-color: aliceblue; color:#800000;
+            font-family: Times New Roman;font-size: x-large;font-style:bold}
+
+.Description5 {text-align:left;font-size:18px;
+            background-color: hotpink; color:red;
+            font-family: Times New Roman;font-size: x-large;font-style:bold}
+
+.Description6 {text-align:right;font-size:18px;
+            background-color: orange; color:black;
+            font-family: Times New Roman;font-size: x-large;font-style:bold}
+
+.DescriptionContact1 {text-align:left;font-size:10px;
+            background-color: orange; color:blue;
+            font-family: Times New Roman;font-size: x-large}
+
+.DescriptionContact2 {text-align:right;font-size:10px;
+            background-color: cadetblue; color:blue;
+            font-family: Times New Roman;font-size: x-large}
+
+#mainPlayers {background-color: tan; color:blue;text-align:center;
+   	      font-family: Times New Roman; font-weight: 10;
+              font-style: bold;font-size: xx-large;}
+
+#ronaldo {font-style:bold;font-size: 20px;color: blue;
+	 font-family: Bookman Old Style}
+
+#messi {font-style:bold;font-size: 20px;color: blue;
+	 font-family: Bookman Old Style}
+
+#player1 {font-size: 20px; font-weight: lighter;
+           background-color: darksalmon;color: darkslategray;text-align:justify}
+
+#player2 {font-size: 20px; font-weight: lighter;
+           color: darkslategray;text-align:justify}
+
+a:link {
+	font-size: large;
+	background-color: #228B22;
+	text-decoration: underline;
+	color: maroon;
+	font-family: Baskerville Old Face;
+	font-style: bold;
+}
+a:visited {
+	background-color: thistle;
+	text-decoration: underline;
+	color: darkgreen;
+	font-family: Baskerville Old Face;
+	font-style: bold;
+	font-size: large;
+}
+a:hover {
+	background-color: darkkhaki;
+	text-decoration: underline;
+	color: red;
+	font-family: Bookman Old Style;
+	font-style: bold;
+	font-size: large;
+}

@@ -1,0 +1,101 @@
+body {background-color:#D8BFD8}
+
+h1 {text-align: center; background-color: tan; 
+   color:blue; font-family: Poor Richard, Ishkoola Potha;
+   font-weight: 10; font-style: bold; 
+   font-size: xx-large;word-spacing: 0.4em}
+
+h2 {text-align: left; background-color: white; 
+   color:blue; font-family: Bookman Old Style;
+   font-weight: 10; font-size: large; word-spacing: 0.1em}
+
+h3 {text-align: center; background-color: tan; 
+   color:blue; font-family: Bookman Old Style;
+   font-weight: 10; font-size: x-large; word-spacing: 0.1em}
+
+.FavoriteVegetables {text-align:justify;font-size:16px;background-color: white;
+	             color:darkblue;font-family: Verdana;font-style:bold}
+
+.FavoriteFruits {text-align:justify;font-size:16px;background-color: grey;
+                 color:white;font-family: Verdana;font-style:bold}
+
+.FavoriteFood {text-align:justify;font-size:16px;background-color: white;
+	             color:darkblue;font-family: Verdana;font-style:bold}
+
+.FavoriteSport {text-align:justify;font-size:16px;background-color: grey;
+                 color:white;font-family: Verdana;font-style:bold}
+
+
+.flex-container {
+    
+			display: -webkit-flex;
+    
+			display: flex;
+    
+			width: 900px;
+    
+			height:1600px;
+    
+			background-color: #DC143C;
+    
+			flex-direction: column;
+    
+			text-align:justify;
+			align-items: center;
+    
+			align-content:stretch;
+    
+			justify-content: space-around;
+
+			font-family: Bookman Old Style;
+			color:#B22222;
+		}
+
+
+.flex-item1 	{
+    
+			background-color: #A9A9A9;
+    
+			width: 850px;
+    
+			height:50px;
+    
+			margin:20px;
+   
+			flex-grow:1;
+
+			font-family: Bookman Old Style;
+			color:#00008B;
+		}
+
+.flex-item2 	{
+    
+			background-color: #A9A9A9;
+    
+			width: 850px;
+    
+			height:500px;
+    
+			margin:20px;
+   
+			flex-grow:1;
+
+			font-family: Bookman Old Style;
+			color:#00008B;
+		}
+
+.flex-item3 	{
+    
+			background-color: #A9A9A9;
+    
+			width: 850px;
+    
+			height:300px;
+    
+			margin:20px;
+   
+			flex-grow:1;
+
+			font-family: Bookman Old Style;
+			color:#00008B;
+		}

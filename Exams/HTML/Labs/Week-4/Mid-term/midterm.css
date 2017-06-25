@@ -1,0 +1,215 @@
+body { 
+font-family: Cambria, Bookman Old Style, Verdana; 
+font-size: 16px; 
+color: #F8F8FF;
+font-style: normal;
+font-weight: lighter;
+}
+
+
+
+.items-image{
+width:100%; height:200px;
+}
+
+h1{ text-align: left; background-color: tan; 
+    color:blue; font-family: Cambria;
+    font-weight: 10; font-style: bold; 
+    font-size: xx-large;float:left;margin: -35px -50px;
+    word-spacing: 0.2em;
+}
+
+#Description {font-size:1.5em; 
+color:saddlebrown; 
+width:90%;
+ background-color:lightblue; 
+margin:50px auto; 
+padding:20px;
+}
+
+
+
+#BigContainer { min-height:200px;
+                margin: 20px 30px 20px 15px;
+                border-color: #556B2F;
+                border-style:  solid;
+                border-width: 8px;
+                padding: 15px 25px;
+	        display:block;
+	      }
+
+#SecondContainer {
+	
+	background:url(http://www.wallpapers13.com/wp-content/uploads/2016/01/Thailand-lipe_island_-wallpaper-2560X1600.jpg); 
+
+     margin: 20px 30px 20px 15px;
+     border-color: red;
+     border-style: ridge;
+     border-width: 10px;
+     padding: 15px 25px;
+     display:  inline-block;
+	 
+}
+
+	
+ul {
+    list-style-type: none;
+    margin: 0px 250px;
+    padding: 30px 30px;
+	
+}
+li{float:left;}
+
+li a {
+    display: square;
+    color: #556B2F;
+    padding:10px 10px 10px 10px;
+    text-decoration: none;
+    background-color:#D2691E;
+    margin :5px;
+	
+}
+li a:hover {
+    background-color: #E9967A;
+    color: white;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.left{float:left;}
+figure{    padding:0px 8px 0px 0px;}
+#describe{background-color:#ccff99;
+padding:10px;
+color:red;}
+em{
+	size:1.5em;
+}
+
+#FirstItem111 {
+	   float:left;
+	   border-color: #F0E68C;
+           border-style:  groove;
+           border-width: 15px;
+	   width:450px;
+	   font-family: Times New Roman", Georgia, Serif; 
+	   }
+
+#SecondItem11 {
+	     float:left;
+	     border-color: #A0522D;
+             border-style:  dotted;
+             border-width: 6px;
+	     width:380px;
+	     margin : 290px 11px 30px -5px;
+	     font-family:courier;
+	
+	
+	    }
+
+#FirstItem {
+float:left; margin:20px 20px 20px 20px; 
+border:6px groove blue;
+width:40%; height:210px;
+}
+
+
+
+#FirstMiniItem1 {
+float:left; width:53%; height:200px;
+}
+
+
+
+#FirstMiniItem2 {
+float:right; 
+border:5px solid #006400;width:34%; height:200px;
+}
+
+
+
+#SecondItem {float:center; margin:50px auto; 
+border:4px dotted #B22222;
+width:40%; height:210px;
+}
+
+
+
+#SecondMiniItem1 {float:left; width:44%; border:5px solid #DC143C; height:200px;
+
+
+
+}
+
+
+
+#SecondMiniItem2 {
+float:right; 
+width:53%; height:200px;}
+
+
+
+#ThirdItem {
+float:right; margin:20px 20px 50px 50px ; 
+border:6px dotted #B22222;
+width:40%; height:210px;
+}
+
+
+
+#ThirdMiniItem1 {float:left; width:53%; height:200px;
+
+
+
+}
+
+
+
+#ThirdMiniItem2 {float:right; 
+border:5px groove #008080;width:44%; height:200px;}
+
+
+
+#ForthItem {
+float:center; margin:50px auto; 
+width:80%; height:450px;
+}
+
+
+
+#ForthMiniItem1 {float:left; width:53%; height:200px;
+
+
+
+}
+
+
+
+#ForthMiniItem2 {background:url(http://www.tropicalislands64.com/wp-content/uploads/2013/07/the-hawaiian-islands.jpg);color:#FFFF00;position:relative; margin:10px auto; 
+
+border:4px solid #B22222;
+width:65%;
+height:350px;}
+
+
+#ThirdItem111{
+	float:right;
+	border-color: coral;
+     border-style:  outset;
+     border-width: 6px;
+	 width:380px;
+	  margin : 0px;
+	  font-family:courier;
+	
+	
+}
+#IslandDescription{
+	/*text-align:center;*/
+	background:url(images/cocos_island.jpg) no-repeat;
+	border-color: coral;
+     border-style:  outset;
+     border-width: 6px;
+	 width:600px;
+	 margin:10px 220px 0px 290px;
+}

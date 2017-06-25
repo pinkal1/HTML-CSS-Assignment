@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html lang="en">
+ <head>
+  <title>order page</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    <style type="text/css">
+    table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+	border: solid green;
+ 	}
+	 </style>
+
+ </head>
+
+<body>
+	
+<header class="HeaderFooter">	
+ <hr color="tomato" size="10">
+ <img src="C:\Users\Jay\Desktop\Assignment1\logo1.PNG"  width="200" height="140">
+ <h1 class="name" align="center" style="color:deeppink" id="blink">Agaman Party Plot & Marriage Hall<H1>
+
+<nav>
+  <a href="index.html" style="margin: 10px 10px 20px 60px" >Home</a>     
+  <a href="about.html" style="margin: 10px 10px 20px 60px">About Us</a>  
+  <a href="contact.html" style="margin: 10px 10px 20px 60px">Contact Us</a>  
+  <a href="new.html" style="margin: 10px 10px 20px 60px">What's new</a>        
+  <a href="faq.html" style="margin: 10px 10px 20px 60px">Faq's</a>       
+  <a href="support.html" style="margin: 10px 10px 20px 60px">Customer Support</a> 
+  <a href="products.html" style="margin: 10px 10px 20px 60px">Products</a>  
+  <a href="multimedia.html" style="margin: 10px 10px 20px 60px">Multimendia</a> 
+  <a href="order.html" style="margin: 10px 10px 20px 60px">Order</a>  
+  <a href="jobs.html" style="margin: 10px 10px 20px 60px">Jobs</a> 
+ </nav>
+</header>
+
+<h2 class="blur">Order here</h2>
+
+<section >
+   <form action="http://itu.lewebcafe.com/csc525/form.php" method="post"  >
+ 
+ <h3><b>Please fill up your information</b></br></h3>
+      <table border=2 >
+	  
+        <tr>
+          <td><label>First Name: </label></td>
+          <td><input  type="text" name="fName"></td>
+         </tr>
+	  
+	    <tr>
+	     <td><label>Last Name: </label></td>
+         <td><input type="text" name="lName"><br><br></td>
+        </tr>
+
+	    <tr>
+         <td><label>Address: </label></td>
+         <td><input type="text" name="Address" id="Address" maxlength="150"><br><br>
+	    </tr>
+	  
+	   <tr>
+	    <td><label>City: </label></td>
+        <td><input type="text" name="City:"></td>
+       </tr>
+	  
+	   <tr>
+        <td><label>State:</label></td>
+        <td><input type="text" name="Email" id="State:"></td>
+	   </tr>
+	  
+	   <tr>
+	    <td><label>Zip: </label></td>
+        <td><input type="text" name="Zip:"></td>
+       </tr>
+
+	   <tr>
+        <td><label>Phone:</label></td>
+        <td><input type="tel" name="Phone" id="Phone"></td>
+	   </tr>
+	  
+	   <tr>
+	    <td><label>Email: </label></td>
+        <td><input type="email" name="Email:"></td>
+	   </tr>
+	  
+	   <tr>
+	    <td><label>Credit card number:</label></td>
+        <td><input type="tel" name="Creditcardnumber" id="Creditcardnumber" maxlength="16"></td>
+	   </tr>
+	  
+	  <tr>
+	   <td><label for="cardtype">Card Type:</label> </td>
+        <td><select name="cardtype" >
+	      <option>Mastercard</option>
+          <option selected>Visa</option>
+          <option>American Express</option>
+          <option>Discover</option>
+        </select></td>
+	  </tr>
+	   
+	   <tr>
+	    <td><label for="expiry_date">Expiration Date:</label></td>
+        <td><input type="month" name="expiry_date" id="expiry_date"></td>
+       </tr>
+	   	   	 
+	</table>
+	
+ 	<h3><b>Pricing</b></br></h3>
+  <table style="width:70%">
+  
+  <tr>
+    <th>Services offere</th>
+    <th>Description</th>
+    <th>Unit Price</th>
+    <th>Quantity</th>
+    <th>Total Price</th>
+  </tr>
+  <tr>
+    <td rowspan="2">Banquet Hall</td>
+    <td>Italian Style</td>
+    <td>$100</td>
+    <td><input type="text" id="quantity" name="quantity" size="2" maxlength="2"></td>
+    <td><input type="text" id="tprice" name="tprice" size="3" maxlength="3"  ></td>
+  </tr>
+<tr>
+    <td>Cartoon Characters</td>
+    <td>$150</td>
+    <td><input type="text" id="quantity" name="quantity" size="2" maxlength="2"></td>
+    <td><input type="text" id="tprice" name="tprice" size="3" maxlength="3"  ></td>
+  </tr>
+  <tr>
+    <td id="finaltotal" colspan="4">SubTotal $</td>
+    <td><input type="text" id="tprice" name="tprice" size="3" maxlength="3"  ></td>
+  </tr>
+  <tr>
+    <td rowspan="2">Catering</td>
+    <td>Vegetarian food</td>
+    <td>$200</td>
+    <td><input type="text" id="quantity" name="quantity" size="2" maxlength="2"></td>
+    <td><input type="text" id="tprice" name="tprice" size="3" maxlength="3"  ></td>
+  </tr>
+  <tr>
+    <td>Maxican food</td>
+    <td>$210</td>
+    <td><input type="text" id="quantity" name="quantity" size="2" maxlength="2"></td>
+    <td><input type="text" id="tprice" name="tprice" size="3" maxlength="3" ></td>
+  </tr>
+  <tr>
+    <td id="finaltotal" colspan="4">SubTotal $</td>
+    <td><input type="text" id="tprice" name="tprice" size="3" maxlength="3" ></td>
+  </tr>
+  <tr>
+    <td id="finaltotal" colspan="4">Total $</td>
+    <td><input type="text" id="tprice" name="tprice" size="10" maxlength="3" ></td>
+  </tr>
+</table>
+	  	  	 
+  	 <br><br>
+	 <button type="submit" name="SubmitButton" value="Submit" style="background-color:blue; color:yellow;">Submit Form</button>
+	 <button type="reset" name="ResetButton" value="Reset" style="background-color:blue; color:yellow;">Reset</button>
+    	 <br><br>
+	<label for="comments">Comments:</label><br>
+       <input type="hidden" name="comments" id="comments">
+       <textarea name="f_comments" cols="40" rows="5"">
+       Please add your comments!
+       </textarea>
+
+	
+	
+   </form>
+
+</section>
+
+
+<br><br><br><br><br>
+
+<footer class="HeaderFooter">
+<nav>
+  <a href="index.html" style="margin: 10px 10px 20px 60px" >Home</a>     
+  <a href="about.html" style="margin: 10px 10px 20px 60px">About Us</a>  
+  <a href="contact.html" style="margin: 10px 10px 20px 60px">Contact Us</a>  
+  <a href="new.html" style="margin: 10px 10px 20px 60px">What's new</a>        
+  <a href="faq.html" style="margin: 10px 10px 20px 60px">Faq's</a>       
+  <a href="support.html" style="margin: 10px 10px 20px 60px">Customer Support</a> 
+  <a href="products.html" style="margin: 10px 10px 20px 60px">Products</a>  
+  <a href="multimedia.html" style="margin: 10px 10px 20px 60px">Multimendia</a> 
+  <a href="order.html" style="margin: 10px 10px 20px 60px">Order</a>  
+  <a href="jobs.html" style="margin: 10px 10px 20px 60px">Jobs</a> 
+ </nav>
+
+<hr color="tomato" size="10">
+
+<p align="center">
+<span >Copyrights &copy; . Agaman Party Plot. All Rights Reserved. Website Designed &amp; Developed By </span><span>Pinkal Patel</span>
+</p> 
+</footer>
+
+</body>
+</html>

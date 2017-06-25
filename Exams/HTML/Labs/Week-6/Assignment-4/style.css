@@ -1,0 +1,147 @@
+body {background-color:lightyellow}
+
+h1 {text-align: center; background-color: sandybrown; 
+   color:tomato; font-family: Algerian;
+   font-weight: 10; font-style: bold; 
+   font-size: xx-large; word-spacing: 0.01em}
+
+h2 {text-align: center; background-color: tomato; 
+   color:lavender; font-family: Algerian;
+   font-weight: 10; font-style: bold; 
+   font-size: x-large; word-spacing: 0.01em}
+
+.Description1 {text-align:center;font-size:16px;
+            background-color: mistyrose; color:darkblue;
+            font-family: Verdana;font-style:bold
+			display: block;
+			width: 95%;
+			margin: 50px 0 0 0;
+			padding: 10px;
+			text-align: justify;
+			border: 5px solid red;
+			background: #ddd;
+			-moz-border-radius: 25px;
+			-webkit-border-radius: 25px;
+			border-radius: 25px;
+			-moz-box-shadow: rgb(120,120,120) 5px 5px 10px;
+			-webkit-box-shadow: rgb(120,120,120) 5px 5px 10px;
+			box-shadow: rgb(120,120,120) 5px 5px 10px;
+			background: -webkit-linear-gradient(top, #FFB6C1, #2E8B57);
+			background: -moz-linear-gradient(top, #FFB6C1, #2E8B57);
+			background: linear-gradient(top, #FFB6C1, #2E8B57);}
+
+.Description2 {text-align:center;font-size:18px;
+            background-color: red; color:yellow;
+            font-family: Cambria;font-style:bold}
+
+.Description3 {text-align:center;font-size:18px;
+            background-color: aliceblue; color:mediumpurple;
+            font-family: Cambria;font-style:bold}
+
+.Description4 {text-align:center;font-size:18px;
+            background-color: #FFA07A; color:#800000;
+            font-family: Times New Roman;font-size: x-large;font-style:bold}
+
+.Description5 {text-align:left;font-size:18px;
+            background-color: hotpink; color:red;
+            font-family: Times New Roman;font-size: x-large;font-style:bold}
+
+.Description6 {text-align:right;font-size:18px;
+            background-color: orange; color:black;
+            font-family: Times New Roman;font-size: x-large;font-style:bold}
+
+.DescriptionContact1 {text-align:left;font-size:20px;
+            background-color: orange; color:blue;
+            font-family: Times New Roman;font-size: x-large
+			display: block;
+			width: 95%;
+			margin: 50px 0 0 0;
+			padding: 10px;
+			text-align: justify;
+			border: 5px solid red;
+			background: blue;
+			-moz-border-radius: 25px;
+			-webkit-border-radius: 25px;
+			border-radius: 25px;
+			-moz-box-shadow: rgb(120,120,120) 5px 5px 10px;
+			-webkit-box-shadow: rgb(120,120,120) 5px 5px 10px;
+			box-shadow: rgb(120,120,120) 5px 5px 10px;
+			background: -webkit-linear-gradient(top, #FFB6C1, #2E8B57);
+			background: -moz-linear-gradient(top, #FFB6C1, #2E8B57);
+			background: linear-gradient(top, #FFB6C1, #2E8B57);}
+
+.DescriptionContact2 {text-align:right; font-size:15px;
+            background-color: cadetblue; color:blue;
+            font-family: Times New Roman;
+			display: block;
+			width: 95%;
+			margin: 50px 0 0 0;
+			padding: 10px;
+			text-align: justify;
+			border: 5px solid red;
+			background: blue;
+			-moz-border-radius: 25px;
+			-webkit-border-radius: 25px;
+			border-radius: 25px;
+			-moz-box-shadow: rgb(120,120,120) 5px 5px 10px;
+			-webkit-box-shadow: rgb(120,120,120) 5px 5px 10px;
+			box-shadow: rgb(120,120,120) 5px 5px 10px;
+			background: -webkit-linear-gradient(top, #FFB6C1, #2E8B57);
+			background: -moz-linear-gradient(top, #FFB6C1, #2E8B57);
+			background: linear-gradient(top, #FFB6C1, #2E8B57);	}
+
+.NewFood {text-align:justify;font-size:16px;background-color: #D2B48C;
+	             color:darkblue;font-family: Verdana;font-style:bold}
+
+.FAQ {text-align:justify;font-size:10px;
+            background-color: #F0E68C; color:forestgreen;
+            font-family: Times New Roman;font-size: large}
+
+.support1 {background-color: #F0E68C; 
+	   color:#6B8E23; font-family: 'Bookman Old Style', Arial, Verdana; 
+           font-weight: 1000pt; font-size: 14pt; font-style: oblique}
+
+.HeaderFooter {text-align: center;
+               color:lavender; font-family: Algerian;
+               font-weight: 10; font-style: bold; 
+               font-size: x-large; word-spacing:0.01em}
+
+a:link {
+	font-size: large;
+	background-color: #228B22;
+	text-decoration: underline;
+	color: maroon;
+	font-family: Baskerville Old Face;
+	font-style: bold;
+}
+
+a:visited {
+	background-color: thistle;
+	text-decoration: underline;
+	color: darkgreen;
+	font-family: Baskerville Old Face;
+	font-style: bold;
+	font-size: large;
+}
+
+a:hover {
+	background-color: darkkhaki;
+	text-decoration: underline;
+	color: red;
+	font-family: Bookman Old Style;
+	font-style: bold;
+	font-size: large;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+}
+
+.myTable { background-color:#eee;border-collapse:collapse; }
+.myTable th { background-color:#000;color:white; }
+.myTable td, .myTable th { padding:5px;border:1px solid #000; }

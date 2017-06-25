@@ -1,0 +1,167 @@
+
+
+body{background-color:lemonchiffon; text-color:red; font-family: 'Comic San MS', 'Book Antiqua'; font-weight: bold; font-style: oblique; font-size: 22px}
+
+
+style="background: url(images/sosie.jpg)">
+
+a {background-color: blanchedalmond; color:coral}
+
+a:hover {font-weight:bolder; color:#00cc00; text-decoration:underline}
+
+h1 {color:red; background-color: yellow}
+
+h2 {color:red}
+
+nav {  
+ text-align: center;
+    margin-top: 30px;
+    height: 60px;
+	
+margin-right: 10px;
+    padding: 7px 10px;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: deeppink;
+    color: white;
+    font-style: normal;
+    border-radius: 8px;
+    box-shadow: 3px 3px teal;
+	
+}
+
+
+.HeaderFooter {text-align: center;
+               color:lime; font-family: Algerian;
+               font-weight: 10;  
+               font-size: medium; word-spacing:0.01em}
+			   
+			   
+.Description1 {text-align:justify;font-size:large;
+            background-color: mistyrose; color:darkblue;
+            font-family: Verdana;font-style:bold
+			border: 5px solid #9400D3;
+			display: -webkit-box;
+  		    display: -moz-box;
+  		    display: -ms-flexbox;
+  		    display: -moz-flex;
+  		    display: -webkit-flex;
+  		    display: flex;
+ 		    -moz-flex-direction: column;
+  		   -webkit-flex-direction: column;
+  		   flex-direction: column;
+  		   align-items: center;
+  		   justify-content: space-around;
+  		   align-content: stretch;
+  		   flex-wrap: wrap;
+  		   color:#B22222;
+  		   width:80%;
+		   margin:20px 200px 150px 150px;
+				}
+			
+			
+li {list-style-type:square; font-style: italic; font-weight: bold;}
+
+section	{
+            margin: 50px 50px 50px 140px;
+			padding: 25px;
+			width: 80%;
+            border: 10px solid green;
+            -moz-border-radius: 20px;
+			-webkit-border-radius: 20px;
+			border-radius: 20px;
+			text-align:justify;
+			text-shadow: 1px 1px 2px orange;
+			box-shadow: 1px 1px 2px 3px purple;
+			background: red; /* For browsers that do not support gradients */
+		  background: -webkit-linear-gradient(lightsalmon, yellow); /* For Safari 5.1 to 6.0 */
+		  background: -o-linear-gradient(lightsalmon, yellow); /* For Opera 11.1 to 12.0 */
+		  background: -moz-linear-gradient(lightsalmon, yellow); /* For Firefox 3.6 to 15 */
+		  background: linear-gradient(lightsalmon, yellow); /* Standard syntax*/ 
+		  background: linear-gradient(lightsalmon, yellow); /* Standard syntax*/ 
+		   }
+		 
+.blur {
+      width: 50%;
+     margin: 30px;
+     padding: 30px;
+     font-size:3 0pt;
+     color: red;
+     text-shadow: 0px 0px 2px rgba(0,0,0,1),
+     0px 0px 4px rgba(0,0,0,1),
+     0px 0px 8px rgba(0,0,0,1);}
+	 
+	 .name {
+   background-color: yellow;
+   width: 40%;
+   display:block;
+   margin: 10px 30px 10px 540px;
+   padding: 30px;
+   font-size:40pt;
+   color: deeppink;
+   text-shadow: 0 0 5px #fff,
+   0 0 10px #fff,
+   0 0 15px #fff,
+   0 0 20px #ff2d95,
+   0 0 30px #ff2d95,
+   0 0 40px #ff2d95,
+   0 0 50px #ff2d95,
+   0 0 75px #ff2d95;
+   letter-spacing: 5px; }
+   
+   
+ 
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+#finaltotal{text-align:right;}
+
+h3{
+	
+	display:block;
+	margin: 10px;
+	padding: 10px;
+	font-size:24pt;
+	border-radius: 10px;
+	text-shadow: 2px 2px darkmagenta;
+}
+
+
+.section2 {
+	   margin: 50px 1px 10px 10px;
+			padding: 25px;
+			width: 85%;
+          font-size:14pt;
+		  text-align: justify;
+          columns:50px 3;
+          -webkit-columns:50px 2; /* Safari and Chrome */
+          -moz-columns:50px 3; /* Firefox */
+          background: linear-gradient(top, #FFFFFF, #006699);
+   		  border-radius: 10px;
+		  box-shadow: 1px 1px 2px 3px purple;			
+		  background: red; /* For browsers that do not support gradients */
+		  background: -webkit-linear-gradient(springgreen, yellow); /* For Safari 5.1 to 6.0 */
+		  background: -o-linear-gradient(springgreen, yellow); /* For Opera 11.1 to 12.0 */
+		  background: -moz-linear-gradient(springgreen, yellow); /* For Firefox 3.6 to 15 */
+		  background: linear-gradient(springgreen, yellow); /* Standard syntax*/ 
+		 }
+		 
+@media only screen and (min-width: 480px) {
+  p {
+	color:#B22222;
+     font-size: 12pt;
+     font-weight: bold;
+	 font-family: Verdana;font-style:bold
+    }
+}
+
+
+li { font-size: 1em;
+     margin: .25em; }
+li:first-child { color: red; }
+li:nth-last-of-type(2) { color: indigo; }
+li:last-child { color: violet; }
+   
+   

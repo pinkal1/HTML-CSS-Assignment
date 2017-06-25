@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>HTML Online Course - Lab 19</title>
+  <meta charset="UTF-8">
+
+  <style>
+body {background-color:greenyellow}
+
+h1 {text-align: center; background-color: tan; 
+   color:blue; font-family: Poor Richard, Ishkoola Potha;
+   font-weight: 10; font-style: bold; 
+   font-size: xx-large;word-spacing: 0.4em}
+
+h2 {text-align: left; background-color: white; 
+   color:blue; font-family: Bookman Old Style;
+   font-weight: 10; font-size: large; word-spacing: 0.1em}
+
+h3 {text-align: center; background-color: tan; 
+   color:blue; font-family: Bookman Old Style;
+   font-weight: 10; font-size: x-large; word-spacing: 0.1em}
+
+.flex-container {
+    
+			display: -webkit-flex;
+    
+			display: flex;
+    
+			width: 98%;
+    
+			height:2000px;
+    
+			background-color: #DC143C;
+    
+			flex-direction: column;
+    
+			text-align:justify;
+			align-items: center;
+    
+			align-content:stretch;
+    
+			justify-content: space-around;
+
+			font-family: Bookman Old Style;
+			color:#B22222;
+		}
+
+
+.flex-item1 	{
+    
+			background-color: #A9A9A9;
+    
+			width: 85%;
+    
+			height:50px;
+    
+			margin:20px;
+   
+			flex-grow:1;
+
+			font-family: Bookman Old Style;
+			color:#00008B;
+		}
+
+.flex-item2 	{
+    
+			background-color: #A9A9A9;
+    
+			width: 850px;
+    
+			height:500px;
+    
+			margin:20px;
+   
+			flex-grow:1;
+
+			font-family: Bookman Old Style;
+			color:#00008B;
+		}
+
+.flex-item3 	{
+    
+			background-color: #A9A9A9;
+    
+			width: 850px;
+    
+			height:300px;
+    
+			margin:20px;
+   
+			flex-grow:1;
+
+			font-family: Bookman Old Style;
+			color:#00008B;
+		}
+
+p.Box1	{
+			background-color:#F0E68C;
+     			color: #FF6347;
+			font-weight: bold;
+			font-family: Castellar;
+  			font: "Castellar", Arial, Helvetica,sans-serif;
+  			letter-spacing: .2em;
+  			margin: 0 0px 0 0px;
+  			padding: 1.5em 0 .2em 2em;
+			border-top: 2px solid black;
+  			border-bottom: 2px solid black;
+			border-left: 2px solid black;
+  			border-right: 2px solid black;
+  			font-size:1.25em;
+			-webkit-transition-property: background;
+			-webkit-transition-duration: 0.5s;
+			-webkit-transition-timing-function: ease;
+			-webkit-transition-delay: 0.5s;
+		}
+
+p.Box1:hover 	{
+			background: blue;
+			color: black;
+		}
+
+#MainBox	{
+			padding: 19px;
+    			font-size: 18px;
+			line-height: 200%;
+		}
+
+
+div 	{
+   	 	width: 300px;
+    		height: 50px;
+		font-family: Bookman Old Style;
+		color: blue;
+    		background-color:  tomato;
+    		font-weight: bold;
+    		position: relative;
+    		-webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    		animation: mymove 5s infinite;
+	}
+
+/* Chrome, Safari, Opera, firefox */
+#div1 {-webkit-animation-timing-function: linear;}
+#div2 {-webkit-animation-timing-function: ease;}
+#div3 {-webkit-animation-timing-function: ease-in;}
+#div4 {-webkit-animation-timing-function: ease-out;}
+#div5 {-webkit-animation-timing-function: ease-in-out;}
+
+
+/* Standard syntax */
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease;}
+#div3 {animation-timing-function: ease-in;}
+#div4 {animation-timing-function: ease-out;}
+#div5 {animation-timing-function: ease-in-out;}
+
+/* Chrome, Safari, Opera, firefox */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+}
+
+#sushi	{
+				
+		margin-top: 50px;
+		float: left;
+		position: relative;
+				
+	}
+
+span 	{
+		width: 700px;
+		height: 80px;
+		background: #556B2F;
+		float: left;
+		margin: 0 10px 10px 0;
+		text-align: center;
+		padding-top: 30px;
+		font-family: Bookman Old Style;
+		color: blue;
+	}
+
+
+span:hover	{
+			-webkit-transform: scale(1.25);
+			background: #4169E1;
+			color: #fff;
+					
+		}
+
+</style>
+
+</head>
+
+<body>
+ <header>
+ <body style="background-color: greenyellow";"color:red">
+<h1 align ="center"><u>TRANSFORM AND ANIMATION:</u></h1>
+<h3 align="center">DIFFERENCE BETWEEN GROCERY STORE SUSHI AND SERIOUS SUSHI.</h3>
+ </header>
+
+<section class="flex-container">
+ <section class="flex-item1">
+<article id="MainBox">
+<p style = "text-align:justify">
+The word "sushi" is often ambiguous for non-native Japanese. We think of it as being interchangeable with raw fish. Sushi is vinegared rice topped with other ingredients. Sashimi, which is slices of raw fish alone, is not sushi because it isn't accompanied with rice. Originally, sushi was fermented fish with rice preserved in salt, and this was a staple dish in Japan for a thousand years until the Edo Period (1603 to 1868) when contemporary sushi was developed. The word "sushi" means "it's sour," which reflects back to sushi's origins of being preserved in salt.
+</p>
+<p style = "text-align:justify">
+Sushi is a food preparation originating in Japan, consisting of cooked vinegared rice combined with other ingredients such as raw seafood, vegetables and sometimes tropical fruits. Ingredients and forms of sushi presentation vary widely, but the ingredient which all sushi have in common is rice (also referred to as shari or sumeshi).
+</p>
+<p style = "text-align:justify">
+Sushi can be prepared with either brown or white rice. It is often prepared with raw seafood, but some common varieties of sushi use cooked ingredients or are vegetarian. Raw fish (or occasionally other meat) sliced and served without rice is called "sashimi". Sushi is often served with pickled ginger, wasabi, and soy sauce. Popular garnishes are often made using daikon.
+</p>
+<h3 align="center">TYPES OF SUSHI</h3>
+<div id="div1">NIGIRI OR NIGIRIZUSHI</div>
+<br>
+<div id="div2">MAKI ROLLS OR MAKIZUSHI</div>
+<br>
+<div id="div3">INARIZUSHI</div>
+<br>
+<div id="div4">CHIRASHI OR CHIRASHIZUSHI</div>
+<br>
+<div id="div5">TEMAKI, OR HAND ROLL</div>
+<br>
+<div id="div6">OSHIZUSHI</div>
+<br>
+<div id="div7">NAREZUSHI</div>
+<p>
+</article>
+<article id="sushi">
+<h2>Grocery Store Sushi vs. Restaurant Sushi</h2>
+<span>
+1.THE GINGER IS MASS PRODUCED.
+<br>
+Most serious chefs will pickle their ginger in-house. Grocery store ginger tends to be mass produced and much sweeter.
+</span>
+<span>
+2.THE SOY SAUCE ISN'T CUSTOM.
+<br>
+Like ginger, a legit sushi chef is probably using a custom blend of soy sauce that doesn't come out of a miniature packet.
+</span>
+<span>3.RAW FISH LOSES FLAVOR WHEN CHILLED.
+<br>
+Once a sushi chef's hands have cut and formed the fish over rice, the fish has been slightly warmed. Those few moments of handling greatly increase the flavor, a personal touch that your grocery case cannot provide.
+</span>
+<span>4.SEASONALITY ISN'T TAKEN INTO ACCOUNT.
+<br>
+Fish have different life cycles, so some will taste best at certain times of the year. A good sushi chef knows what's in season and will recommend it, whereas at grocery stores it's always spicy tuna season.
+</span>
+<span>5.GROCERY STORE SUSHI IS OXIDIZED.
+<br>
+The point of cutting sushi just before serving is that meat oxidizes when exposed to air, and the flavor deflates. No amount of loosely fitting plastic cover can keep that fish from turning sour once it's been cut.
+</span>
+</article>
+</section></section>
+<footer>
+
+<br>
+
+<hr width="100%" size="5" noshade color="tomato" border="5">
+
+<p style="text-align:center;font-size:20px">
+
+<b><i>&copy; Copyrights: Pinkal Patel<br></b></i>
+
+<time datetime="2016-07-10"><b>OCT 30th</b></time>
+		
+</p>
+
+</footer>
+</body>
+</html>

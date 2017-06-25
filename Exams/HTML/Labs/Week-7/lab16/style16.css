@@ -1,0 +1,124 @@
+body {background-color:#D8BFD8}
+
+h1 {text-align: center; background-color: tan; 
+   color:blue; font-family: Poor Richard, Ishkoola Potha;
+   font-weight: 10; font-style: bold; 
+   font-size: xx-large;word-spacing: 0.4em}
+
+h2 {text-align: left; background-color: white; 
+   color:blue; font-family: Bookman Old Style;
+   font-weight: 10; font-size: large; word-spacing: 0.1em}
+
+h3 {text-align: center; background-color: tan; 
+   color:blue; font-family: Bookman Old Style;
+   font-weight: 10; font-size: x-large; word-spacing: 0.1em}
+
+
+#BigBox 	{
+  		display: -webkit-box;
+  		display: -moz-box;
+  		display: -ms-flexbox;
+  		display: -moz-flex;
+  		display: -webkit-flex;
+  		display: flex;
+ 		-moz-flex-direction: column;
+  		-webkit-flex-direction: column;
+  		flex-direction: column;
+  		align-items: center;
+  		justify-content: space-around;
+  		align-content: stretch;
+  		flex-wrap: wrap;
+  		border: 5px solid #9400D3;
+  		font-family: Bookman Old Style;
+		color:#B22222;
+  		width:80%;
+		background-color: #DC143C;
+		text-align:justify;
+		}
+
+#flexbox-1	{
+  		-moz-flex: 1;
+  		-webkit-flex: 1;
+  		flex: 1; 
+  		background:#FFA07A;
+  		margin: 10px;
+  		width: 500px;
+  		height:80px;
+  		text-align:center
+	}
+
+#flexbox-2	{
+  		-moz-flex: 1;
+  		-webkit-flex: 1;
+  		flex: 1; 
+  		background:#FFA07A;
+  		margin: 10px;
+  		width: 90%;
+  		height: 1050px;
+	}
+
+#flexbox-3	{
+  		-moz-flex: 1;
+  		-webkit-flex: 1;
+  		flex: 1; 
+  		background:#FFA07A;
+  		margin: 10px;
+  		width: 500px;
+  		height: 80px;
+  		text-align:center
+	}
+
+#flexbox-4	{
+  		-moz-flex: 1;
+  		-webkit-flex: 1;
+  		flex: 1; 
+  		background:#FFA07A;
+  		margin: 10px;
+  		width: 90%;
+  		height: 350px;
+	}
+   
+.article1 p:first-of-type::first-letter {
+      						color:blue;
+      						font-size: 2em;
+      						margin: -.25em .05em 0 0; 
+					}
+
+article p	{
+      			color:#B22222;
+      			font-size: 1em;
+      			line-height: 1.5;
+      			margin: .875em 2em;
+		}
+
+article p:first-of-type::first-line	{
+      						color: #F0E68C;
+      						font-size: 1.25em;
+					}
+
+p:nth-child(2)	{
+    			background: #6B8E23;
+		}
+
+li	{ 
+		font-size: 1em;
+     		margin: .25em; 
+	}
+
+li:first-child 	{ 
+			color: #FF00FF; 
+		}
+
+li:nth-of-type(3)	{ 
+				color: green; 
+				font-weight:bold 
+			}
+	
+li:last-of-type	{ 
+			border-bottom: 4px  solid #00FF00; 
+		}
+
+li:last-child	{ 
+			font-size:2.0em; 
+			color: #6A5ACD; 
+		}

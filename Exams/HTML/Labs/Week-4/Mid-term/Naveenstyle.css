@@ -1,0 +1,55 @@
+body {background-color:lightyellow}
+
+h1 {text-align: center; background-color: tan; 
+   color:blue; font-family: Cambria;
+   font-weight: 10; font-style: bold; 
+   font-size: xx-large;word-spacing: 0.2em}
+
+.FootballDescription1 {text-align:justify;font-size:16px;
+            background-color: lightgreen; color:darkblue;
+            font-family: Verdana,Arial;font-style:bold}
+
+.FootballDescription2 {text-align:justify;font-size:16px;
+            background-color: lightblue; color:yellow;
+            font-family: Verdana,Arial;font-style:bold}
+
+#mainPlayers {background-color: tan; color:blue;text-align:center;
+   font-family: Times New Roman; font-weight: 10;
+   font-style: bold;font-size: xx-large;}
+
+#ronaldo {font-style:bold;font-size: 20px;color: blue;
+	 font-family: Bookman Old Style}
+
+#messi {font-style:bold;font-size: 20px;color: blue;
+	 font-family: Bookman Old Style}
+
+#player1 {font-size: 20px; font-weight: lighter;
+           background-color: darksalmon;color: darkslategray;text-align:justify}
+
+#player2 {font-size: 20px; font-weight: lighter;
+           color: darkslategray;text-align:justify}
+
+a:link {
+	font-size: large;
+	background-color: lightblue;
+	text-decoration: underline;
+	color: violet;
+	font-family: Baskerville Old Face;
+	font-style: bold;
+}
+a:visited {
+	background-color: thistle;
+	text-decoration: underline;
+	color: darkgreen;
+	font-family: Baskerville Old Face;
+	font-style: bold;
+	font-size: large;
+}
+a:hover {
+	background-color: blue;
+	text-decoration: underline;
+	color: red;
+	font-family: Bookman Old Style;
+	font-style: bold;
+	font-size: large;
+}

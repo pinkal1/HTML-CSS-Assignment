@@ -1,0 +1,36 @@
+body {background-color:#D8BFD8}
+
+h1 {text-align: center; background-color: tan; 
+   color:blue; font-family: Poor Richard, Ishkoola Potha;
+   font-weight: 10; font-style: bold; 
+   font-size: xx-large;word-spacing: 0.4em}
+
+h3 {text-align: center; background-color: tan; 
+   color:blue; font-family: Bookman Old Style;
+   font-weight: 10; font-size: x-large; word-spacing: 0.1em}
+
+.FavoriteVegetables {text-align:justify;font-size:16px;background-color: white;
+	             color:darkblue;font-family: Verdana;font-style:bold}
+
+.FavoriteFruits {text-align:justify;font-size:16px;background-color: grey;
+                 color:white;font-family: Verdana;font-style:bold}
+
+.FavoriteFood {text-align:justify;font-size:16px;background-color: white;
+	             color:darkblue;font-family: Verdana;font-style:bold}
+
+.FavoriteSport {text-align:justify;font-size:16px;background-color: grey;
+                 color:white;font-family: Verdana;font-style:bold}
+
+.AudioVideo 
+		{
+			border: top left bottom right;
+     			margin: 15px 15px 15px 15px;
+     			border-color: red blue blue red;
+			border-width: 10px 15px;
+     			border-style: ridge;
+     			padding: 15px 15px;
+     			background: lightblue;
+			font-family: Verdana;
+			font-size:12pt;
+			text-align:justify;
+			color:blue;

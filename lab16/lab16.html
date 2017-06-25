@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>HTML Online Course - Lab 16</title>
+ <meta charset="UTF-8">
+ <style  type="text/css">
+  
+ body {background-color:pink}
+
+ h1 {text-align: center; background-color: yellow; color:blue; font-family: Poor Richard, Ishkoola Potha;font-weight: 10; font-style: bold; font-size: xx-large;word-spacing: 0.4em}
+
+ h2 {text-align: left; background-color: gold; 
+   color:blue; font-family: Bookman Old Style;
+   font-weight: 10; font-size: large; word-spacing: 0.1em}
+
+ h3 {text-align: center; background-color: springgreen; 
+   color:blue; font-family: Bookman Old Style;
+   font-weight: 10; font-size: x-large; word-spacing: 0.1em}
+
+ .name {
+   background-color: yellow;
+     font-size:40pt;
+   color: deeppink;
+   text-shadow: 0 0 5px #fff,
+    letter-spacing: 5px; }
+   
+
+ #BigBox 	{
+  		display: -webkit-box;
+  		display: -moz-box;
+  		display: -ms-flexbox;
+  		display: -moz-flex;
+  		display: -webkit-flex;
+  		display: flex;
+ 		-moz-flex-direction: column;
+  		-webkit-flex-direction: column;
+  		flex-direction: column;
+  		align-items: center;
+  		justify-content: space-around;
+  		align-content: stretch;
+  		flex-wrap: wrap;
+  		border: 5px solid #9400D3;
+  		font-family: Bookman Old Style;
+		color:#B22222;
+  		width:80%;
+		background-color: mistyrose;
+		text-align:justify;
+		margin:20px 200px 150px 150px;
+		}
+
+  #flexbox-1	{
+  		-moz-flex: 1;
+  		-webkit-flex: 1;
+  		flex: 1; 
+  		background:black;
+  		margin: 10px;
+  		width: 90%;
+  		height: 1050px;
+	}
+
+ #flexbox-2	{
+  		-moz-flex: 1;
+  		-webkit-flex: 1;
+  		flex: 1; 
+  		background:black;
+  		margin: 10px;
+  		width: 90%;
+  		height: 350px;
+	}
+   
+ .article1 p:first-of-type::first-letter {
+      						color:blue;
+      						font-size: 2em;
+      						margin: -.25em .05em 0 0; 
+					}
+
+  article p	{
+      			color:#B22222;
+      			font-size: 1em;
+      			line-height: 1.5;
+      			margin: .875em 2em;
+		}
+
+article p:first-of-type::first-line	{
+      						color: #F0E68C;
+      						font-size: 1.25em;
+					}
+
+p:nth-child(2)	{background: #6B8E23;
+		}
+
+li	{ 
+		font-size: 1em;
+     		margin: .25em; 
+	}
+
+li:first-child 	{ 
+			color: #FF00FF; 
+		}
+
+li:nth-of-type(3)	{ 
+				color: green; 
+				font-weight:bold 
+			}
+	
+li:last-of-type	{ 
+			border-bottom: 4px  solid #00FF00; 
+		}
+
+li:last-child	{ 
+			font-size:2.0em; 
+			color: #6A5ACD; 
+		}
+		
+#footer {
+	       font-weight: 150;
+	       font-style: Courier New Bold; 
+		   font-size: 15pt; color:black; 
+		   background-color:yellow; 
+		   text-align: center;
+		}
+
+</style>
+
+</head>
+
+<body>
+
+ <header>
+  <body>
+  <h1 class="name" align ="center"><u>LAB ABOUT PSEUDOCLASSES AND PSEUDO ELEMENTS</u></h1>
+  <h3 align="center">2014 Sochi Winter Olympics Games</h3>
+ </header>
+
+ <section id="BigBox">
+  
+  <div id="flexbox-1">
+    <h2><u>Tina Maze (SLO), Alpine Skiing</u> </h2>
+    <article class="article1">
+    <p>
+      Two gold medals in five events entered. The Slovenian singing sensation became the third skier to finish in the top eight of all five Alpine events at one Winter Olympics. She tied for gold in the downhill and won the giant slalom outright, adding to her two silver medals from 2010.
+ 
+      Maze could have become the first skier to be in the top six of all events, but she faltered in her final race, the second slalom run Friday, to drop from third to eighth.
+
+      Still, Maze showed her best form all season, which had largely been a struggle up to Sochi that included a coaching change. In 2012-13, Maze put up the greatest World Cup season ever by a man or woman.
+
+      She is 30 with four Olympics under her belt and said that she has skied her final Olympic race.
+    </p>
+
+    <p>
+      Ahn became the most decorated Olympic short track skater of all time, matching Apolo Ohno in medals but with more golds. He has five World Cup victories.Kushnir won a bronze medal at the 2011 FIS Freestyle World Ski Championships.
+    </p>
+    </article>
+  </div>
+
+  <div id="flexbox-2">
+    <article>
+     <h2><u>Kamil Stoch (POL), Ski Jumping</u></h2>
+      <ol>
+      <li>
+       Stock Photo - Kamil Stoch (POL) wins the gold medal in the Men's Ski Jumping Normal Hill at the Olympic Winter Games, Sochi 2014</li>
+      <br>
+      <li>
+       Two gold medals in three events entered. Stoch became the third man to sweep the individual ski jumping events, joining legends Matti Nykaenen and Simon Ammann.
+      </li>
+      <br>
+      <li>
+       Ski jumper Kamil Stoch completed a gold medal sweep of the normal and large hills in the Sochi Olympics on Saturday in a close tussle with 41-year-old Noriaki Kasai of Japan.
+      </li>
+      <br>
+      <li>
+      “I have weird thoughts at this moment,” Stoch said. “I’m thinking, Is it happening for real, or is it a dream?”</li>
+      <br>
+      <li>       
+      As it turned out, Stoch won his second gold medal, making him only the third person to win two individual ski jump events in the same Winter Games.
+      He and Kasai, 15 years apart, hugged and were mobbed by their teammates after the final results were posted, showing the jumpers finished only 1.3 points apart.
+      </li>
+     </ol>
+    </article>
+   </div>
+</section>
+
+ <footer id="footer">
+	 <p><span>Copyrights &copy; . 10/20/2016 &amp; Developed By </span><span>Pinkal Patel</span></p> 
+ </footer>
+
+</body>
+</html>

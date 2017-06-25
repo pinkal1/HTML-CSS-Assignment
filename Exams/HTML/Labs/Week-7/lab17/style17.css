@@ -1,0 +1,126 @@
+body {background-color: red}
+
+h1 {text-align: center; background-color: tan; 
+   color:blue; font-family: Poor Richard, Ishkoola Potha;
+   font-weight: 10; font-style: bold; 
+   font-size: xx-large;word-spacing: 0.4em}
+
+h2 {text-align: left; background-color: white; 
+   color:red; font-family: Bookman Old Style;
+   font-weight: 10; font-size: large; word-spacing: 0.1em}
+
+h3 {text-align: center; text-align: left;
+   color:blue; font-family: Cambria;
+   font-weight: 10; font-size: x-large; word-spacing: 0.1em}
+
+
+@media only screen and (min-width: 320px) {
+  p {
+     background-color: #F5DEB3;
+     color:blue; 
+     font-size: 8pt;
+     }}
+
+@media only screen and (min-width: 480px) {
+  p {
+     background-color: #F5DEB3;
+     color:blue;
+     font-size: 10pt;
+     }}
+
+@media only screen and (min-width: 600px) and (max-width: 767px){
+  p {
+     background-color: #F5DEB3;
+     color:blue;
+     font-size: 14pt;
+     }}
+
+@media only screen and (min-width: 768px) {
+  p {
+     background-color:#F5DEB3;
+     color: blue;
+     font-size: 16pt;
+     }}
+
+@media print{
+       a:link:after, a:visited:after {content:" (" attr(href) ") ";font-size:0.8em; font-style:normal;}
+       p, body {  font-family: "Times New Roman", Times, serif;
+       background-color:white;}}
+
+<!--
+
+.flex-container {
+    
+			display: -webkit-flex;
+    
+			display: flex;
+    
+			width: 900px;
+    
+			height:1600px;
+    
+			background-color: #DC143C;
+    
+			flex-direction: column;
+    
+			text-align:justify;
+			align-items: center;
+    
+			align-content:stretch;
+    
+			justify-content: space-around;
+
+			font-family: Bookman Old Style;
+			color:#B22222;
+		}
+
+
+.flex-item1 	{
+    
+			background-color: #A9A9A9;
+    
+			width: 850px;
+    
+			height:50px;
+    
+			margin:20px;
+   
+			flex-grow:1;
+
+			font-family: Bookman Old Style;
+			color:#00008B;
+		}
+
+.flex-item2 	{
+    
+			background-color: #A9A9A9;
+    
+			width: 850px;
+    
+			height:500px;
+    
+			margin:20px;
+   
+			flex-grow:1;
+
+			font-family: Bookman Old Style;
+			color:#00008B;
+		}
+
+.flex-item3 	{
+    
+			background-color: #A9A9A9;
+    
+			width: 850px;
+    
+			height:300px;
+    
+			margin:20px;
+   
+			flex-grow:1;
+
+			font-family: Bookman Old Style;
+			color:#00008B;
+		}
+
+-->

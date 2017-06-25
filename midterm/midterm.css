@@ -1,0 +1,190 @@
+body {
+    background-image: url(bg2.jpg);
+}
+
+#container1{
+    border: 10px inset yellow;
+    padding: 10px 10px 10px 10px;
+    position:relative;
+    height:2000px;
+}
+
+#container2 {
+    border: 5px outset orangered;
+    margin: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
+    position:absolute;
+    height:1300px;
+}
+
+#tag{
+	text-shadow: rgba(120,120,120, 0.7) 3px 3px 5px;
+	background-color:yellow;
+	width:300px;
+	text-align:center;
+	position:absolute;
+	top:10px;
+	z-index:1;
+}
+
+.nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    margin: 0;
+}
+
+.nav li {
+    width: 120px;
+    line-height: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background-color: lime;
+    display: inline-block;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+.nav a:hover {
+     background-color: yellow;
+     color: green;
+}
+
+.nav a.active {
+     background-color: #fff;
+     color: #444;
+     cursor: default;
+}
+
+.divIslandDescription {
+    background-color:aquamarine;
+    color:#46361B;
+    font-size:25px;
+    padding: 20px 20px 20px 20px;
+    width:60%;
+    margin: 20px auto;
+}
+
+#item1innerbox {
+    width: 60%;
+    height: 40%;
+    float: left;
+}
+
+#item2innerbox {
+    width: 60%;
+    height: 40%;
+    float: right;
+}
+
+#item3innerbox{
+    width: 60%;
+    height: 40%;
+    float: left;
+}
+
+#imgitem1 {
+    border: 2px solid blue;
+    height: 225px;
+    width: 225px;
+}
+
+#imgitem2 {
+    border: 4px solid green;
+    height: 225px;
+    width: 225px;
+}
+
+#imgitem3 {
+    border: 4px groove red;
+    height: 225px;
+    width: 225px;
+}
+
+
+h3 {
+    color: lime;
+   }
+
+h2 {
+    color:yellow;
+    text-align:center;
+}
+
+.spanitem1{
+color:#1A2F98;
+}
+
+#knifeDivision {
+    border: 4px inset tomato;
+    width: 600px;
+    float: left;
+    padding: 10px 10px 20px 10px;
+    position:absolute;
+}
+
+#fishingnetDivision {
+    border: 5px dashed red;
+    width: 600px;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    top: 650px;
+    left: 600px;
+}
+
+#sleepingbagDivision{
+    border: 5px double #0D7F18;
+    width: 600px;
+    float: right;
+    position: relative;
+    padding: 10px 10px 10px 10px;
+    top:700px;
+}
+.pitem1{
+    font-family:Verdana;
+    color:magenta;
+    font-size:15px;
+}
+
+.pitem2{
+   font-family:sans-serif;
+   color:#730C0F;
+   font-size:15px;
+   font-style:oblique;
+}
+
+.pitem3{
+   font-family:Arial, Helvetica, sans-serif;
+   color:mediumvioletred;
+   font-size:15px;
+   font-style:oblique;
+}
+
+hr{
+   margin:auto;
+   position:relative;
+   top:1400px;
+}
+
+#islandDivision{
+	 background-color:turquoise;
+	 color:darkorange;
+	 font-size: medium;
+     border: 6px solid blue;
+     margin: 10px 10px 10px 10px;
+     padding: 20px 20px 20px 20px;
+     width:50%;
+     margin:auto;
+     position:relative;
+     top:1450px;
+}
+
+footer{
+     text-align:center;
+	 color: white;
+     font-weight:bold;
+}

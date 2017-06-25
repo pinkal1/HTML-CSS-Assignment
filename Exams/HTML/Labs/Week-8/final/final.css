@@ -1,0 +1,289 @@
+body {background-color:#D8BFD8}
+
+h1 {text-align: center; background-color: tan; 
+   color:blue; font-family: Poor Richard, Ishkoola Potha;
+   font-weight: 10; font-style: bold; 
+   font-size: xx-large;word-spacing: 0.4em}
+
+h2 {text-align: center; 
+   color:white; font-family: Bookman Old Style, Ishkoola Potha;
+   font-weight: 10; font-style: bold; 
+   font-size: xx-large;word-spacing: 0.4em}
+
+.FavoriteVegetables {text-align:justify;font-size:16px;background-color: white;
+	             color:darkblue;font-family: Verdana;font-style:bold}
+
+.FavoriteFruits {text-align:justify;font-size:16px;background-color: grey;
+                 color:white;font-family: Verdana;font-style:bold}
+
+.FavoriteFood {text-align:justify;font-size:16px;background-color: white;
+	             color:darkblue;font-family: Verdana;font-style:bold}
+
+.FavoriteSport {text-align:justify;font-size:16px;background-color: grey;
+                 color:white;font-family: Verdana;font-style:bold}
+
+.flex-container {
+    
+			display: -webkit-flex;
+    
+			display: flex;
+    
+			width: 100%;
+    
+			height:4000px;
+    
+			background-color: #DC143C;
+    
+			flex-direction: column;
+    
+			text-align:justify;
+			align-items: center;
+    
+			align-content:stretch;
+    
+			justify-content: space-around;
+
+			font-family: Bookman Old Style;
+			color:#B22222;
+		}
+
+
+.flex-item1 	{
+    
+			background-color: #A9A9A9;
+    
+			width: 20%;
+    
+			height:5px;
+    
+			margin:20px;
+   
+			flex-grow:1;
+
+			font-family: Bookman Old Style;
+			color:#00008B;
+		}
+
+.flex-item2 	{
+    
+			background-color: #A9A9A9;
+    
+			width: 850px;
+    
+			height:500px;
+    
+			margin:20px;
+   
+			flex-grow:1;
+
+			font-family: Bookman Old Style;
+			color:#00008B;
+		}
+
+.flex-item3 	{
+    
+			background-color: #A9A9A9;
+    
+			width: 850px;
+    
+			height:300px;
+    
+			margin:20px;
+   
+			flex-grow:1;
+
+			font-family: Bookman Old Style;
+			color:#00008B;
+		}
+
+#FinalExamBox1 		{
+				display: -webkit-box;
+				display: -moz-box;
+				display: -ms-flexbox;
+				display: -moz-flex;
+				display: -webkit-flex;
+				display: flex;
+				-moz-flex-direction: row;
+				-webkit-flex-direction: row;
+				flex-direction: row;				
+				-webkit-align-items: center;
+				align-items: center;
+				-webkit-justify-content: space-around;
+				justify-content: space-around;
+				align-content: stretch;
+				background:  #ff80bf;
+			    	background: -webkit-radial-gradient(#ffffff 40%, #ff99cc); /* Safari 5.1 to 6.0 */
+			    	background: -o-radial-gradient(#ffffff 40%, #ff99cc); /* For Opera 11.6 to 12.0 */
+			    	background: -moz-radial-gradient(#ffffff 40%, #ff99cc); /* For Firefox 3.6 to 15 */
+			    	background: radial-gradient(#ffffff 40%, #ff99cc); /* Standard syntax (must be last) */
+				font-family: Bookman Old Style;
+				color: white;
+				text-align: justify;
+				flex-wrap: wrap;
+				box-shadow: 5px 0px 20px 10px #ff0000;
+				border-radius: 5px;
+				width: 600px;
+				height: 600px;
+				margin:auto;
+			}
+
+
+PlaceNames		{
+				color: white;
+				text-align: center;
+				font-size: 34px;
+				font-weight: bold;
+			}
+
+p 			{
+				text-shadow: 8px 2px 10px #ff1493;
+				color: white;
+				text-align: center;
+				vertical-align: middle;
+				font-size: 32px;
+				font-weight: bold;
+			}
+
+
+#FinalExamParis		{
+				margin: 20px;
+				width: 250px;
+				height: 250px;
+				position: relative;
+				float: right;
+				background-image: url(http://www.hoganlovells.com/~/media/hogan-lovells/images/locations/paris.ashx);
+				background-repeat:no-repeat;
+				background-size: 420px;
+				border-radius: 5px;
+				border: 2px solid #2E8B57;
+				box-shadow: 1px 1px 1px 1px #2E8B57;
+			}
+
+#FinalExamParis:hover	{
+				-webkit-transform: translate(-300px) rotate(-45deg);
+				transform: translate(-300px) rotate(-45deg);
+				border-radius: 70%;
+				border: 2px solid #DAA520;
+				padding: 5px;
+				transition-property: all;
+				transition-duration: 1s;
+				-webkit-transition-duration: 1s;
+				-webkit-transition-delay: 1s;
+				transition-delay: 1s;
+			}
+
+#FinalExamRome		{
+				margin: 20px;
+				width: 250px;
+				height: 250px;
+				position: relative;
+				float: right;
+				background-image: url(http://cache-graphicslib.viator.com/graphicslib/thumbs674x446/5835/SITours/4-day-tuscany-and-cinque-terre-tour-from-rome-in-rome-125731.jpg);
+				background-repeat:no-repeat;
+				background-size: 380px;
+				border-radius: 5px;
+				border: 2px solid #2E8B57;
+				box-shadow: 1px 1px 1px 1px #2E8B57;
+			}
+
+#FinalExamRome:hover	{
+				-webkit-transform: translate(-300px) rotate(-45deg);
+				transform: translate(-300px) rotate(-45deg);
+				border-radius: 70%;
+				border: 2px solid #DAA520;
+				padding: 5px;
+				transition-property: all;
+				transition-duration: 1s;
+				-webkit-transition-duration: 1s;
+				-webkit-transition-delay: 1s;
+				transition-delay: 1s;
+			}
+
+
+.LeftSideRotate		{
+				opacity: 0;
+				-webkit-transform: rotate(45deg);
+				transform: rotate(45deg);
+			}
+
+.LeftSideRotate:hover	{
+				opacity: 1;
+				margin-left: 30px;
+				-ms-transform: rotate(45deg);
+   	            		-webkit-transform: rotate(45deg);
+    				transform: rotate(45deg);
+    				text-shadow: 0 0 15px #ff99cc, 0 0 20px #ff99cc, 0 0 25px #ff99cc, 0 0 30px #ff99cc, 0 0 35px #ff99cc, 0 0 40px #ff99cc;
+			}
+
+#FinalExamLondon 	{
+				margin: 20px;
+				width: 250px;
+				height: 250px;
+				position: relative;
+				float: left;
+				background-image: url(http://cache.marriott.com/propertyimages/l/lonch/lonch_main01_r.jpg?resize=0.5x:0.5x);
+				background-repeat:no-repeat;
+				background-size: 470px;
+				border-radius: 5px;
+				border: 2px solid #2E8B57;
+				box-shadow: 1px 1px 1px 1px #2E8B57;
+			}
+
+
+#FinalExamLondon:hover	{
+				-webkit-transform: translate(300px) rotate(45deg);
+				transform: translate(300px) rotate(45deg);
+				border-radius: 70%;
+				border: 2px solid #DAA520;
+				padding: 5px;
+				transition-property: all;
+				transition-duration: 1s;
+				-webkit-transition-duration: 1s;
+				-webkit-transition-delay: 1s;
+				transition-delay: 1s;
+			}
+
+
+#FinalExamVienna	{
+				margin: 20px;
+				width: 250px;
+				height: 250px;
+				position: relative;
+				float: left;
+				background-image: url(http://www.austria.info/media/17083/thumbnails/00000030016-christkindlmarkt-auf-dem-wiener-rathausplatz-oesterreich-werbung-Viennaslide.jpg.3197212.jpg);
+				background-repeat:no-repeat;
+				background-size: 540px;
+				border-radius: 5px;
+				border: 2px solid #2E8B57;
+				box-shadow: 1px 1px 1px 1px #2E8B57;
+			}
+
+
+#FinalExamVienna:hover	{
+				-webkit-transform: translate(300px) rotate(45deg);
+				transform: translate(300px) rotate(45deg);
+				border-radius: 70%;
+				border: 2px solid #DAA520;
+				padding: 5px;
+				transition-property: all;
+				transition-duration: 1s;
+				-webkit-transition-duration: 1s;
+				-webkit-transition-delay: 1s;
+				transition-delay: 1s;
+			}
+
+
+.RightSideRotate	{
+				opacity: 0;
+				-webkit-transform: rotate(-45deg);
+				transform: rotate(-45deg);
+			}
+
+.RightSideRotate:hover	{
+				opacity: 1;
+				margin-left: 30px;
+				-ms-transform: rotate(-45deg);
+   	            		-webkit-transform: rotate(-45deg);
+    				transform: rotate(-45deg);
+    				text-shadow: 0 0 15px #ff99cc, 0 0 20px #ff99cc, 0 0 25px #ff99cc, 0 0 30px #ff99cc, 0 0 35px #ff99cc, 0 0 40px #ff99cc;
+			}

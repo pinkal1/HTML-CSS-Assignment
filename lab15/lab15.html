@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HTML Online Course - Lab 15</title>
+
+<meta charset="UTF-8">
+
+<style type="text/css">
+
+ body { justify-content: center; }
+ 
+ .name {
+       background-color: yellow;
+       font-size:40pt;
+       color: deeppink;
+       text-shadow: 0 0 5px #fff,
+      letter-spacing: 5px; }
+   
+  h1 {text-align: center; background-color: tan; 
+     color:blue; font-family: Poor Richard, Ishkoola Potha;
+     font-weight: 10; font-style: bold; 
+     font-size: xx-large;word-spacing: 0.4em}
+
+ h2 {text-align: left; background-color: gold; 
+     color:blue; font-family: Bookman Old Style;
+     font-weight: 10; font-size: large; word-spacing: 0.1em}
+
+ h3 {text-align: center; background-color: springgreen; 
+    color:blue; font-family: Bookman Old Style;
+    font-weight: 10; font-size: x-large; word-spacing: 0.1em}
+
+.parent-container {
+                   flex-direction: column;
+                   align-content:stretch;
+				   justify-content: space-around;
+				   align-items: center;
+			       display: -webkit-flex;
+        		   display: flex;
+    			   width: 900px;
+       			   height:1000px;
+        		   background-color: #DC143C;
+    			   text-align:justify;
+	    		   font-family: Bookman Old Style;
+			       color:#B22222;
+		         }
+
+.flex-item1 	{
+                flex-grow:1;
+			    background-color:pink;
+                width: 850px;
+                height:1px;
+                margin:20px;
+                font-family: Bookman Old Style;
+			    color:#00008B;
+		        } 
+				
+.flex-item2	{
+    
+			background-color: pink;
+    			width: 850px;
+    			height:60px;
+    			margin:20px;
+   			flex-grow:1;
+			font-family: Bookman Old Style;
+			color:#00008B;
+			}
+
+.flex-item3	{
+    			background-color: pink;
+    			width: 850px;
+    			height:100px;
+    			margin:20px;
+   			flex-grow:1;
+			font-family: Bookman Old Style;
+			color:#00008B;
+		}
+
+
+#footer {
+	       font-weight: 150;
+	       font-style: Courier New Bold; 
+		   font-size: 15pt; color:black; 
+		   background-color:yellow; 
+		   text-align: center;
+		}
+
+</style>
+</head>
+
+<body bgcolor="lightgoldenrodyellow" text="green" link="gold">
+ <h1 class="name" align="center">HTML/CSS class - Lab15</h1>
+ <hr size = "3" width ="100%" noshade color = "red">
+ 
+ <h3 align="center">The Fast and the Furious</h3>
+
+   <div class="parent-container">
+     <div class="flex-item1"> 
+         <h2><u>Description about movie:</u> </h2>
+           <p> The Fast and the Furious is an American franchise including a series of action films, which center around illegal street racing and heists, and various other media portraying the characters and situations from the films.</font>
+            The film is based on an article, titled "Racer X", about New York street clubs that race Japanese cars late at night, although the film is set primarily in Los Angeles. While elite street racer and ex-convict Dominic Toretto (Vin Diesel) and his crew: Jesse (Chad Lindberg), Leon (Johnny Strong), Vince (Matt Schulze) and Letty Ortiz (Michelle Rodriguez), are under suspicion of stealing expensive electronic equipment by hijacking moving trucks, Brian O'Conner (Paul Walker) is an undercover police officer who attempts to find out who exactly is stealing the equipment. He works for FBI agent Bilkins (Thom Barry) and LAPD Sgt. Tanner (Ted Levine).</p></font>
+     </div>
+	 
+	 <div class="flex-item2">
+      <h2><u>CAST:</u></h2>
+      <b>Director:</b> F. Gary Gray 
+      <br><br>
+      <b>Producers:</b><pre>         <b>Vin Diesal</b> 
+         <b>Neal H. Moritz</b> 
+         <b>Michael Fottrell</b> 
+                 </pre> 
+      <b>Cast:</b><pre>        <b>Vin Diesal</b> 
+        <b>Dwayne Johnson</b> 
+        <b>Jason Statham</b></pre>
+     </div>
+
+    <div class="flex-item3">
+       <h2><u>CRITICAL RESPONSE AND ACCOLADES:</u></h2>
+       <img src="http://www.1zoom.net/big2/38/123667-aleni.jpg" alt="Image1 image not found" style="border:10px solid black; width:820px;height:250px; padding:5px; float:center">
+    </div>
+
+   </div>
+
+ <footer id="footer">
+	 <p><span>Copyrights &copy; . 10/20/2016 &amp; Developed By </span><span>Pinkal Patel</span></p> 
+ </footer>
+</body>
+
+</html>
